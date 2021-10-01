@@ -13,7 +13,6 @@ public class Client{
 		}
 	}
 }
-//Accepted threads
 class ClientIn implements Runnable{
 	Socket socket;
 	ClientIn(Socket socket){
